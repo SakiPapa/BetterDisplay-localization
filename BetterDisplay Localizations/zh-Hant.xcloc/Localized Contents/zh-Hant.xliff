@@ -4002,6 +4002,10 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
         <target state="translated">透過 DisplayLink 連接的顯示器</target>
         <note/>
       </trans-unit>
+      <trans-unit id="DisplayLink auto-discovery" xml:space="preserve">
+        <source>DisplayLink auto-discovery</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Displays" xml:space="preserve">
         <source>Displays</source>
         <target state="translated">顯示器</target>
@@ -6844,6 +6848,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
         <target state="translated">定期從顯示器讀取和更新目前值</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Persistent network connection" xml:space="preserve">
+        <source>Persistent network connection</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs." xml:space="preserve">
         <source>Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs.</source>
         <target state="translated">Philips Android 電視使用安全連線並需要配對。關閉此選項可能可控制部分較舊的非 Android Philips 電視。</target>
@@ -9291,6 +9299,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
         <target state="translated">應用程式透過 macOS 提供的原生音量控制方法控制下方指定的關聯音訊裝置。</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable." xml:space="preserve">
+        <source>The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…" xml:space="preserve">
         <source>The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…</source>
         <target state="translated">應用程式選單圖示將反映目前主顯示器的圖示。如不喜歡預設圖示請啟用…</target>
@@ -9309,6 +9321,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       <trans-unit id="The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity." xml:space="preserve">
         <source>The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity.</source>
         <target state="translated">當裝置在一段時間未使用後音量被調整時，App 會開啟裝置並切換到所選輸入。</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays." xml:space="preserve">
+        <source>The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays.</source>
         <note/>
       </trans-unit>
       <trans-unit id="The app was launched using Rosetta. Some features won't work." xml:space="preserve">
@@ -11221,6 +11237,10 @@ A previous activation was automatically removed to make room for this new one.</
         <target state="translated">已配對，已連線</target>
         <note/>
       </trans-unit>
+      <trans-unit id="paired, waiting to connect" xml:space="preserve">
+        <source>paired, waiting to connect</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="pairing cancelled" xml:space="preserve">
         <source>pairing cancelled</source>
         <target state="translated">配對已取消</target>
@@ -11348,9 +11368,9 @@ Most displays do not allow EDID write for security reasons, some displays requir
         <target state="translated">⚠️ 全螢幕串流不可用，此設定需要螢幕錄影權限。您可在 "系統設定 &gt; 隱私與安全性 &gt; 螢幕錄影" 下授予權限！</target>
         <note/>
       </trans-unit>
-      <trans-unit id="⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
-        <source>⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
-        <target state="translated">⚠️ 如果您正在使用第三方應用程式 (如 MediaMate, DynamicLake) 來顯示調整浮動視窗 (OSD) 可能需要禁用鍵盤/內置調整浮動視窗 (OSD) 避免顯示重覆或混合風格的調整浮動視窗 (OSD)！</target>
+      <trans-unit id="⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
+        <source>⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
+        <target state="translated">⚠️ 如果您正在使用第三方應用程式來顯示調整浮動視窗 (OSD) 可能需要禁用鍵盤/內置調整浮動視窗 (OSD) 避免顯示重覆或混合風格的調整浮動視窗 (OSD)！</target>
         <note/>
       </trans-unit>
       <trans-unit id="⚠️ If you want to mirror/stream the virtual screen to a natively connected display only to get flexible HiDPI resolutions, it is recommended to use the flexible scaling feature instead if possible! If you want to use mirroring instead of streaming, this can be enabled in the app menu once the virtual screen was connected." xml:space="preserve">

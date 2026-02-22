@@ -516,7 +516,7 @@
     "⚠️ Full screen streaming is unavailable as it requires Screen Recording permissions. You can grant this under System Settings > Privacy & Security > Screen Recording!" : {
 
     },
-    "⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" : {
+    "⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" : {
 
     },
     "⚠️ If you want to mirror/stream the virtual screen to a natively connected display only to get flexible HiDPI resolutions, it is recommended to use the flexible scaling feature instead if possible! If you want to use mirroring instead of streaming, this can be enabled in the app menu once the virtual screen was connected." : {
@@ -2677,6 +2677,9 @@
     "DisplayLink Attached Display" : {
 
     },
+    "DisplayLink auto-discovery" : {
+
+    },
     "Displays" : {
 
     },
@@ -4366,6 +4369,9 @@
     "paired, connected" : {
 
     },
+    "paired, waiting to connect" : {
+
+    },
     "pairing cancelled" : {
 
     },
@@ -4428,6 +4434,9 @@
 
     },
     "Periodically read and update current value from display" : {
+
+    },
+    "Persistent network connection" : {
 
     },
     "Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs." : {
@@ -5927,6 +5936,9 @@
     "The app controls the associated audio device specified below using the native audio control methods provided by macOS." : {
 
     },
+    "The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable." : {
+
+    },
     "The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…" : {
 
     },
@@ -5937,6 +5949,9 @@
 
     },
     "The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity." : {
+
+    },
+    "The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays." : {
 
     },
     "The app was launched using Rosetta. Some features won't work." : {

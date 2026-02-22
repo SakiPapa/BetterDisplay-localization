@@ -4001,6 +4001,10 @@ Okuma uzunluğunu belirtmek isteğe bağlıdır - otomatik algılama için alan�
         <target state="translated">DisplayLink ile bağlanan ekran</target>
         <note/>
       </trans-unit>
+      <trans-unit id="DisplayLink auto-discovery" xml:space="preserve">
+        <source>DisplayLink auto-discovery</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Displays" xml:space="preserve">
         <source>Displays</source>
         <target state="translated">Ekranlar</target>
@@ -6843,6 +6847,10 @@ Tüm ekranlar DDC güç işlemlerini desteklemez. DDC güç işlemleri bazı ekr
         <target state="translated">Ekrandan mevcut değeri periyodik olarak okuyun ve güncelleyin</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Persistent network connection" xml:space="preserve">
+        <source>Persistent network connection</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs." xml:space="preserve">
         <source>Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs.</source>
         <target state="translated">Philips Android TV’ler güvenli bağlantı kullanır ve eşleştirme gerektirir. Bunu kapatmak, bazı eski Android olmayan Philips TV’lerin kontrol edilmesini mümkün kılabilir.</target>
@@ -9288,6 +9296,10 @@ Tüm ekranlar DDC güç işlemlerini desteklemez. DDC güç işlemleri bazı ekr
         <target state="translated">Uygulama, macOS tarafından sağlanan yerel ses kontrol yöntemlerini kullanarak aşağıda belirtilen ilişkili ses cihazını kontrol eder.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable." xml:space="preserve">
+        <source>The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…" xml:space="preserve">
         <source>The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…</source>
         <target state="translated">Uygulama menüsü simgesi, geçerli ana ekranın simgesini yansıtacaktır. Varsayılan simgeyi beğenmediyseniz etkinleştirin…</target>
@@ -9306,6 +9318,10 @@ Tüm ekranlar DDC güç işlemlerini desteklemez. DDC güç işlemleri bazı ekr
       <trans-unit id="The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity." xml:space="preserve">
         <source>The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity.</source>
         <target state="translated">Uygulama, bir süre kullanılmadıktan sonra ses değiştirildiğinde cihazı açar ve seçili girişe geçer.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays." xml:space="preserve">
+        <source>The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays.</source>
         <note/>
       </trans-unit>
       <trans-unit id="The app was launched using Rosetta. Some features won't work." xml:space="preserve">
@@ -11217,6 +11233,10 @@ A previous activation was automatically removed to make room for this new one.</
         <target state="translated">eşleştirildi, bağlandı</target>
         <note/>
       </trans-unit>
+      <trans-unit id="paired, waiting to connect" xml:space="preserve">
+        <source>paired, waiting to connect</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="pairing cancelled" xml:space="preserve">
         <source>pairing cancelled</source>
         <target state="translated">eşleştirme iptal edildi</target>
@@ -11346,9 +11366,9 @@ Most displays do not allow EDID write for security reasons, some displays requir
         <target state="translated">⚠️ Tam ekran yayını, Ekran Kaydı izinleri gerektirdiğinden kullanılamaz. Bu izni Sistem Ayarları &gt; Gizlilik ve Güvenlik &gt; Ekran Kaydı bölümünden izin verebilirsiniz!</target>
         <note/>
       </trans-unit>
-      <trans-unit id="⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
-        <source>⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
-        <target state="translated">⚠️ OSD'yi göstermek için üçüncü taraf bir uygulama (MediaMate, DynamicLake gibi) kullanıyorsanız, çoğaltılmış veya çoklu OSD'lerin görüntülenmesini önlemek için Klavye/OSD altındaki yerleşik OSD'yi devre dışı bırakmak isteyebilirsiniz!</target>
+      <trans-unit id="⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
+        <source>⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
+        <target state="translated">⚠️ OSD'yi göstermek için üçüncü taraf bir uygulama kullanıyorsanız, çoğaltılmış veya çoklu OSD'lerin görüntülenmesini önlemek için Klavye/OSD altındaki yerleşik OSD'yi devre dışı bırakmak isteyebilirsiniz!</target>
         <note/>
       </trans-unit>
       <trans-unit id="⚠️ If you want to mirror/stream the virtual screen to a natively connected display only to get flexible HiDPI resolutions, it is recommended to use the flexible scaling feature instead if possible! If you want to use mirroring instead of streaming, this can be enabled in the app menu once the virtual screen was connected." xml:space="preserve">

@@ -3998,6 +3998,10 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
         <target state="translated">Via DisplayLink aangesloten scherm</target>
         <note/>
       </trans-unit>
+      <trans-unit id="DisplayLink auto-discovery" xml:space="preserve">
+        <source>DisplayLink auto-discovery</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Displays" xml:space="preserve">
         <source>Displays</source>
         <target state="translated">Schermen</target>
@@ -6840,6 +6844,10 @@ Niet alle schermen ondersteunen DDC-stroomhandelingen. DDC-stroomhandelingen kun
         <target state="translated">Lees en werk periodiek huidige waarde bij van scherm</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Persistent network connection" xml:space="preserve">
+        <source>Persistent network connection</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs." xml:space="preserve">
         <source>Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs.</source>
         <target state="translated">Android-tv’s van Philips gebruiken een beveiligde verbinding en vereisen paren. Door dit uit te schakelen zou het mogelijk kunnen worden om bepaalde oudere Philips-tv’s zonder Android te bedienen.</target>
@@ -9285,6 +9293,10 @@ Niet alle schermen ondersteunen DDC-stroomhandelingen. DDC-stroomhandelingen kun
         <target state="translated">De app bedient het geassocieerde geluidsapparaat hieronder opgegeven middels ingebouwde volumebedieningsmethoden aangeboden door macOS.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable." xml:space="preserve">
+        <source>The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…" xml:space="preserve">
         <source>The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…</source>
         <target state="translated">Het symbool van het appmenu zal het symbool van het huidige hoofdscherm weerspiegelen. Schakel dit in als het standaardsymbool je niet aanstaat...</target>
@@ -9303,6 +9315,10 @@ Niet alle schermen ondersteunen DDC-stroomhandelingen. DDC-stroomhandelingen kun
       <trans-unit id="The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity." xml:space="preserve">
         <source>The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity.</source>
         <target state="translated">De app schakelt de stroom van het apparaat in en wisselt naar de geselecteerde invoer als de apparaatvolume gewijzigd wordt na een periode van inactiviteit.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays." xml:space="preserve">
+        <source>The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays.</source>
         <note/>
       </trans-unit>
       <trans-unit id="The app was launched using Rosetta. Some features won't work." xml:space="preserve">
@@ -11214,6 +11230,10 @@ Een eerdere activering is automatisch verwijderd om ruimte te maken voor deze ni
         <target state="translated">gepaard, verbonden</target>
         <note/>
       </trans-unit>
+      <trans-unit id="paired, waiting to connect" xml:space="preserve">
+        <source>paired, waiting to connect</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="pairing cancelled" xml:space="preserve">
         <source>pairing cancelled</source>
         <target state="translated">paren geannuleerd</target>
@@ -11343,9 +11363,9 @@ De meeste schermen staan het schrijven van EDID om beveiligingsredenen niet toe,
         <target state="translated">⚠️ Streamen naar volledig scherm is niet beschikbaar omdat het bevoegdheden vereist voor Schermopname. U kunt deze toewijzen via Systeeminstellingen &gt; Privacy en beveiliging &gt; Schermopname! </target>
         <note/>
       </trans-unit>
-      <trans-unit id="⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
-        <source>⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
-        <target state="translated">⚠️ Als apps van derden (zoals MediaMate, DynamicLake) worden gebruikt om de OSD te tonen, dan wil je mogelijk de ingebouwde OSD uitschakelen via Toetsenbord/OSD om te voorkomen dat je meerdere OSD’s of deze in een gemengde stijl ziet!</target>
+      <trans-unit id="⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
+        <source>⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
+        <target state="translated">⚠️ Als apps van derden worden gebruikt om de OSD te tonen, dan wil je mogelijk de ingebouwde OSD uitschakelen via Toetsenbord/OSD om te voorkomen dat je meerdere OSD’s of deze in een gemengde stijl ziet!</target>
         <note/>
       </trans-unit>
       <trans-unit id="⚠️ If you want to mirror/stream the virtual screen to a natively connected display only to get flexible HiDPI resolutions, it is recommended to use the flexible scaling feature instead if possible! If you want to use mirroring instead of streaming, this can be enabled in the app menu once the virtual screen was connected." xml:space="preserve">
