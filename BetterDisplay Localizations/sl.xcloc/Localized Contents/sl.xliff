@@ -587,6 +587,10 @@ Hvala za razumevanje in nadaljnjo podporo.</target>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
+      <trans-unit id="0" xml:space="preserve">
+        <source>0</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="0.5x" xml:space="preserve">
         <source>0.5x</source>
         <target state="translated">0.5x</target>
@@ -655,6 +659,10 @@ Hvala za razumevanje in nadaljnjo podporo.</target>
       <trans-unit id="180°" xml:space="preserve">
         <source>180°</source>
         <target state="translated">180°</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="255.255.255.255" xml:space="preserve">
+        <source>255.255.255.255</source>
         <note/>
       </trans-unit>
       <trans-unit id="270°" xml:space="preserve">
@@ -935,6 +943,10 @@ Hvala za razumevanje in nadaljnjo podporo.</target>
       <trans-unit id="Adding a custom DDC control" xml:space="preserve">
         <source>Adding a custom DDC control</source>
         <target state="translated">Dodajanje nadzora DDC po meri</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Additional LG webOS settings" xml:space="preserve">
+        <source>Additional LG webOS settings</source>
         <note/>
       </trans-unit>
       <trans-unit id="Additional Settings…" xml:space="preserve">
@@ -2168,6 +2180,10 @@ Določanje dolžine branja ni obvezno - pustite polje prazno za samodejno zaznav
       <trans-unit id="Buy %@ Pro" xml:space="preserve">
         <source>Buy %@ Pro</source>
         <target state="translated">Kupite %@ Pro</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake." xml:space="preserve">
+        <source>By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake.</source>
         <note/>
       </trans-unit>
       <trans-unit id="By default the app orders display first, then virtual screens, alphabetically. By providing an ordering string, you can redefine the data which serves as the basis of the alphabetical order and mix the virtual screen among the displays as well." xml:space="preserve">
@@ -3542,6 +3558,10 @@ Community Verified icon
       <trans-unit id="Device IP address" xml:space="preserve">
         <source>Device IP address</source>
         <target state="translated">IP-naslov naprave</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Device MAC address" xml:space="preserve">
+        <source>Device MAC address</source>
         <note/>
       </trans-unit>
       <trans-unit id="Device control settings" xml:space="preserve">
@@ -6975,9 +6995,9 @@ Vsi zasloni ne podpirajo napajalnih operacij DDC. Napajanje DDC lahko povzroči 
         <target state="translated">Oglejte si spodnji seznam podprtih funkcij DDC. Uporabite samodejno konfiguracijo in/ali po potrebi ročno konfigurirajte vsako funkcijo.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Please enter the PIN number shown by the Philips TV and then complete the pairing." xml:space="preserve">
-        <source>Please enter the PIN number shown by the Philips TV and then complete the pairing.</source>
-        <target state="translated">Vnesite PIN-kodo, ki jo prikazuje televizor Philips, in nato dokončajte seznanjanje.</target>
+      <trans-unit id="Please enter the PIN number shown by the TV and then complete the pairing." xml:space="preserve">
+        <source>Please enter the PIN number shown by the TV and then complete the pairing.</source>
+        <target state="translated">Vnesite PIN-kodo, ki jo prikazuje televizor, in nato dokončajte seznanjanje.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Please make sure you have your license details saved so you can activate again later!" xml:space="preserve">
@@ -9375,6 +9395,10 @@ This operation does not reset the display itself.</source>
 Ta postopek ne ponastavi samega zaslona.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address." xml:space="preserve">
+        <source>The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted." xml:space="preserve">
         <source>The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted.</source>
         <target state="translated">Vgrajeni zaslon je konfiguriran tako, da se prekine, ko je priključen zunanji zaslon. Ta nastavitev bo znova omogočena, ko bo vgrajeni zaslon ponovno ročno prekinjen ali bo aplikacija ponovno zagnana.</target>
@@ -9393,6 +9417,10 @@ Ta postopek ne ponastavi samega zaslona.</target>
       <trans-unit id="The device doesn’t support range-based volume control (i.e., setting a specific level on a scale between a minimum and maximum). It does support remote-style volume up/down and mute toggles, which works well for keyboard control. Volume control may not work optimally if an AV receiver is connected and HDMI‑CEC is handling volume between the TV and the receiver." xml:space="preserve">
         <source>The device doesn’t support range-based volume control (i.e., setting a specific level on a scale between a minimum and maximum). It does support remote-style volume up/down and mute toggles, which works well for keyboard control. Volume control may not work optimally if an AV receiver is connected and HDMI‑CEC is handling volume between the TV and the receiver.</source>
         <target state="translated">Naprava ne podpira nadzora glasnosti na podlagi obsega (tj. nastavitve določene ravni na lestvici med minimalno in maksimalno vrednostjo). Podpira pa daljinsko upravljanje za povečanje/zmanjšanje glasnosti in izklop zvoka, kar dobro deluje za upravljanje s tipkovnico. Nadzor glasnosti morda ne bo deloval optimalno, če je priključen AV-sprejemnik in HDMI-CEC upravlja glasnost med televizorjem in sprejemnikom.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device." xml:space="preserve">
+        <source>The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device.</source>
         <note/>
       </trans-unit>
       <trans-unit id="The display group is marked as exclusive while at least one other display group with higher priority is active." xml:space="preserve">
@@ -9603,6 +9631,10 @@ V primeru okvare odklopite in ponovno fizično priključite zaslon.</target>
       <trans-unit id="These three identifiers (serial number, vendor and model ID) serve as the basis for display identification in macOS. If any of these three identifiers are changed, the system will assign a new identity (UUID) to the virtual screen and treat it as newly connected display." xml:space="preserve">
         <source>These three identifiers (serial number, vendor and model ID) serve as the basis for display identification in macOS. If any of these three identifiers are changed, the system will assign a new identity (UUID) to the virtual screen and treat it as newly connected display.</source>
         <target state="translated">Ti trije identifikatorji (serijska številka, prodajalec in ID modela) služijo kot osnova za identifikacijo zaslona v macOS. Če se kateri koli od teh treh identifikatorjev spremeni, bo sistem virtualnemu zaslonu dodelil novo identiteto (UUID) in ga obravnaval kot na novo povezan zaslon.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Third pass WOL attempt delay" xml:space="preserve">
+        <source>Third pass WOL attempt delay</source>
         <note/>
       </trans-unit>
       <trans-unit id="Third-party external display" xml:space="preserve">
@@ -10766,6 +10798,10 @@ Community Verified icon
       <trans-unit id="Volume control" xml:space="preserve">
         <source>Volume control</source>
         <target state="translated">Nadzor glasnosti</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="WOL broadcast address" xml:space="preserve">
+        <source>WOL broadcast address</source>
         <note/>
       </trans-unit>
       <trans-unit id="Wait time between backlight state change operations" xml:space="preserve">

@@ -597,6 +597,9 @@
     "⚠️ Volume control is configured to use an audio device with native volume control. This prevents this control from being accessible even if the capability is enabled." : {
 
     },
+    "0" : {
+
+    },
     "0.5x" : {
 
     },
@@ -637,6 +640,9 @@
 
     },
     "180°" : {
+
+    },
+    "255.255.255.255" : {
 
     },
     "270°" : {
@@ -811,6 +817,9 @@
 
     },
     "Additional delay after wake to reapply DDC settings" : {
+
+    },
+    "Additional LG webOS settings" : {
 
     },
     "Additional licenses:" : {
@@ -1547,6 +1556,9 @@
 
     },
     "Buy %@ Pro" : {
+
+    },
+    "By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake." : {
 
     },
     "By default the app orders display first, then virtual screens, alphabetically. By providing an ordering string, you can redefine the data which serves as the basis of the alphabetical order and mix the virtual screen among the displays as well." : {
@@ -2390,6 +2402,9 @@
 
     },
     "Device IP address" : {
+
+    },
+    "Device MAC address" : {
 
     },
     "Device specific features can be configured and bound to predefined or custom controls configured under Displays > Overview > Custom Controls." : {
@@ -4508,7 +4523,7 @@
     "Please consult the list of supported DDC features below. Use auto-configuration and/or configure each feature manually as needed." : {
 
     },
-    "Please enter the PIN number shown by the Philips TV and then complete the pairing." : {
+    "Please enter the PIN number shown by the TV and then complete the pairing." : {
 
     },
     "Please make sure you have your license details saved so you can activate again later!" : {
@@ -5966,6 +5981,9 @@
     "The app will reset all DDC feature settings to its defaults.\n\nThis operation does not reset the display itself." : {
 
     },
+    "The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address." : {
+
+    },
     "The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted." : {
 
     },
@@ -5979,6 +5997,9 @@
 
     },
     "The device doesn’t support range-based volume control (i.e., setting a specific level on a scale between a minimum and maximum). It does support remote-style volume up/down and mute toggles, which works well for keyboard control. Volume control may not work optimally if an AV receiver is connected and HDMI‑CEC is handling volume between the TV and the receiver." : {
+
+    },
+    "The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device." : {
 
     },
     "The display group is marked as exclusive while at least one other display group with higher priority is active." : {
@@ -6093,6 +6114,9 @@
 
     },
     "These three identifiers (serial number, vendor and model ID) serve as the basis for display identification in macOS. If any of these three identifiers are changed, the system will assign a new identity (UUID) to the virtual screen and treat it as newly connected display." : {
+
+    },
+    "Third pass WOL attempt delay" : {
 
     },
     "Third-party external display" : {
@@ -6918,6 +6942,9 @@
 
     },
     "Without this, toggles are rendered as checkboxes and radio buttons." : {
+
+    },
+    "WOL broadcast address" : {
 
     },
     "Works only when an associated virtual screen is not set to follow the associated display's orientation" : {
