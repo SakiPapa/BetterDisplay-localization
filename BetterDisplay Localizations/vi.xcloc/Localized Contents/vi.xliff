@@ -583,7 +583,7 @@ Cảm ơn sự hiểu biết và hỗ trợ liên tục của bạn.</target>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
-      <trans-unit id="0" xml:space="preserve">
+      <trans-unit id="0" translate="no" xml:space="preserve">
         <source>0</source>
         <note/>
       </trans-unit>
@@ -657,7 +657,7 @@ Cảm ơn sự hiểu biết và hỗ trợ liên tục của bạn.</target>
         <target state="translated">180°</target>
         <note/>
       </trans-unit>
-      <trans-unit id="255.255.255.255" xml:space="preserve">
+      <trans-unit id="255.255.255.255" translate="no" xml:space="preserve">
         <source>255.255.255.255</source>
         <note/>
       </trans-unit>
@@ -2341,6 +2341,10 @@ Việc chỉ định chiều dài đọc là tùy chọn - để trống thườ
       <trans-unit id="Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." xml:space="preserve">
         <source>Change the display connection color mode (bit depth, encoding, chroma subsampling, range).</source>
         <target state="translated">Thay đổi chế độ màu kết nối màn hình (độ sâu bit, mã hóa, lấy mẫu màu chroma, phạm vi).</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change the display input source (for displays with supported controllers)." xml:space="preserve">
+        <source>Change the display input source (for displays with supported controllers).</source>
         <note/>
       </trans-unit>
       <trans-unit id="Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." xml:space="preserve">
@@ -8477,6 +8481,10 @@ Việc xóa tất cả các kích hoạt sẽ giúp bạn bắt đầu lại t�
       <trans-unit id="Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." xml:space="preserve">
         <source>Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}.</source>
         <target state="translated">Đặt chế độ hiển thị của ${displayEntity} thành độ phân giải ${resolutionEntity} sử dụng tỷ lệ ${scaleFactorEntity} ở tần số làm mới ${refreshRateEntity} với độ sâu màu ${colorDepthEntity}.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Set the input source ${displayEntity} to ${inputSourceEntity}." xml:space="preserve">
+        <source>Set the input source ${displayEntity} to ${inputSourceEntity}.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Set the rotation of ${displayEntity} to ${degrees}." xml:space="preserve">

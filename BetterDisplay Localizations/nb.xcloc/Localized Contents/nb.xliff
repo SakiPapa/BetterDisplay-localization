@@ -583,7 +583,7 @@ Takk for forståelsen og for den fortsatte støtten.</target>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
-      <trans-unit id="0" xml:space="preserve">
+      <trans-unit id="0" translate="no" xml:space="preserve">
         <source>0</source>
         <note/>
       </trans-unit>
@@ -657,7 +657,7 @@ Takk for forståelsen og for den fortsatte støtten.</target>
         <target state="translated">180°</target>
         <note/>
       </trans-unit>
-      <trans-unit id="255.255.255.255" xml:space="preserve">
+      <trans-unit id="255.255.255.255" translate="no" xml:space="preserve">
         <source>255.255.255.255</source>
         <note/>
       </trans-unit>
@@ -2342,6 +2342,10 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       <trans-unit id="Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." xml:space="preserve">
         <source>Change the display connection color mode (bit depth, encoding, chroma subsampling, range).</source>
         <target state="translated">Endre fargemodus for skjermtilkobling (fargedybde, koding, kroma-subsampling, område).</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change the display input source (for displays with supported controllers)." xml:space="preserve">
+        <source>Change the display input source (for displays with supported controllers).</source>
         <note/>
       </trans-unit>
       <trans-unit id="Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." xml:space="preserve">
@@ -8476,6 +8480,10 @@ Ikke alle skjermer støtter DDC-strømoperasjoner. Slike operasjoner kan forårs
       <trans-unit id="Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." xml:space="preserve">
         <source>Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}.</source>
         <target state="translated">Angi skjermmodus for ${displayEntity} til oppløsning ${resolutionEntity} med ${scaleFactorEntity}-skalering ved oppdateringsfrekvens ${refreshRateEntity} med fargedybde ${colorDepthEntity}.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Set the input source ${displayEntity} to ${inputSourceEntity}." xml:space="preserve">
+        <source>Set the input source ${displayEntity} to ${inputSourceEntity}.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Set the rotation of ${displayEntity} to ${degrees}." xml:space="preserve">

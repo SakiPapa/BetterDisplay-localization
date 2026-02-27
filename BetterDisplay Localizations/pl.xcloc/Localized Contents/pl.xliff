@@ -618,7 +618,7 @@ Dziękujemy za wyrozumiałość i dalsze wsparcie.</target>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
-      <trans-unit id="0" xml:space="preserve">
+      <trans-unit id="0" translate="no" xml:space="preserve">
         <source>0</source>
         <note/>
       </trans-unit>
@@ -692,7 +692,7 @@ Dziękujemy za wyrozumiałość i dalsze wsparcie.</target>
         <target state="translated">180°</target>
         <note/>
       </trans-unit>
-      <trans-unit id="255.255.255.255" xml:space="preserve">
+      <trans-unit id="255.255.255.255" translate="no" xml:space="preserve">
         <source>255.255.255.255</source>
         <note/>
       </trans-unit>
@@ -2376,6 +2376,10 @@ Określenie długości odczytu jest opcjonalne – pozostaw pole puste, aby wł�
       <trans-unit id="Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." xml:space="preserve">
         <source>Change the display connection color mode (bit depth, encoding, chroma subsampling, range).</source>
         <target state="translated">Zmień tryb kolorów połączenia wyświetlacza (głębia bitowa, kodowanie, subsampling chromy, zakres).</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change the display input source (for displays with supported controllers)." xml:space="preserve">
+        <source>Change the display input source (for displays with supported controllers).</source>
         <note/>
       </trans-unit>
       <trans-unit id="Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." xml:space="preserve">
@@ -8510,6 +8514,10 @@ Nie wszystkie wyświetlacze obsługują operacje zasilania DDC. Operacje zasilan
       <trans-unit id="Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." xml:space="preserve">
         <source>Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}.</source>
         <target state="translated">Ustaw tryb wyświetlacza ${displayEntity} na rozdzielczość ${resolutionEntity} używając skalowania ${scaleFactorEntity} przy częstotliwości odświeżania ${refreshRateEntity} z głębią kolorów ${colorDepthEntity}.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Set the input source ${displayEntity} to ${inputSourceEntity}." xml:space="preserve">
+        <source>Set the input source ${displayEntity} to ${inputSourceEntity}.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Set the rotation of ${displayEntity} to ${degrees}." xml:space="preserve">
