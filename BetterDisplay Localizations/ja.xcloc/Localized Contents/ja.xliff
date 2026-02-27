@@ -585,6 +585,7 @@ Thank you for your understanding and continued support.</source>
       </trans-unit>
       <trans-unit id="0" xml:space="preserve">
         <source>0</source>
+        <target state="translated">0</target>
         <note/>
       </trans-unit>
       <trans-unit id="0.5x" xml:space="preserve">
@@ -659,6 +660,7 @@ Thank you for your understanding and continued support.</source>
       </trans-unit>
       <trans-unit id="255.255.255.255" xml:space="preserve">
         <source>255.255.255.255</source>
+        <target state="translated">255.255.255.255</target>
         <note/>
       </trans-unit>
       <trans-unit id="270°" xml:space="preserve">
@@ -943,6 +945,7 @@ Thank you for your understanding and continued support.</source>
       </trans-unit>
       <trans-unit id="Additional LG webOS settings" xml:space="preserve">
         <source>Additional LG webOS settings</source>
+        <target state="translated">LG webOS追加設定</target>
         <note/>
       </trans-unit>
       <trans-unit id="Additional Settings…" xml:space="preserve">
@@ -2171,6 +2174,7 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       </trans-unit>
       <trans-unit id="By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake." xml:space="preserve">
         <source>By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake.</source>
+        <target state="translated">デフォルトでは、システムのスリープ解除時にWOLコマンドを発行し、標準のスリープ解除遅延（2回目のパス）後にWOLコマンドを発行します。第3パス遅延を設定している場合、追加のWOL信号を送信します。スリープ解除後の初期化に時間がかかるネットワークデバイスの場合に役立ちます。</target>
         <note/>
       </trans-unit>
       <trans-unit id="By default the app orders display first, then virtual screens, alphabetically. By providing an ordering string, you can redefine the data which serves as the basis of the alphabetical order and mix the virtual screen among the displays as well." xml:space="preserve">
@@ -3545,6 +3549,7 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       </trans-unit>
       <trans-unit id="Device MAC address" xml:space="preserve">
         <source>Device MAC address</source>
+        <target state="translated">デバイスのMACアドレス</target>
         <note/>
       </trans-unit>
       <trans-unit id="Device control settings" xml:space="preserve">
@@ -4024,6 +4029,7 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       </trans-unit>
       <trans-unit id="DisplayLink auto-discovery" xml:space="preserve">
         <source>DisplayLink auto-discovery</source>
+        <target state="translated">DisplayLinkを自動検出</target>
         <note/>
       </trans-unit>
       <trans-unit id="Displays" xml:space="preserve">
@@ -6870,6 +6876,7 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       </trans-unit>
       <trans-unit id="Persistent network connection" xml:space="preserve">
         <source>Persistent network connection</source>
+        <target state="translated">持続的ネットワーク接続</target>
         <note/>
       </trans-unit>
       <trans-unit id="Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs." xml:space="preserve">
@@ -9321,6 +9328,7 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       </trans-unit>
       <trans-unit id="The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable." xml:space="preserve">
         <source>The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable.</source>
+        <target state="translated">デバイスとの持続的な接続を確立し、これを維持します。オフにした場合は、デバイスの操作が遅れる可能性がありますが、接続が不安定な場合に役立ちます。</target>
         <note/>
       </trans-unit>
       <trans-unit id="The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…" xml:space="preserve">
@@ -9345,6 +9353,7 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       </trans-unit>
       <trans-unit id="The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays." xml:space="preserve">
         <source>The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays.</source>
+        <target state="translated">構成中にDisplayLinkディスプレイ情報が要求されます。最新のDisplayLinkドライバが必要です。DisplayLink接続ディスプレイで問題が発生する場合は、この機能を無効化してください。</target>
         <note/>
       </trans-unit>
       <trans-unit id="The app was launched using Rosetta. Some features won't work." xml:space="preserve">
@@ -9377,6 +9386,7 @@ This operation does not reset the display itself.</source>
       </trans-unit>
       <trans-unit id="The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address." xml:space="preserve">
         <source>The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address.</source>
+        <target state="translated">WOL/WoWLANマジックパケットのブロードキャストIPアドレスです。空欄の場合は255.255.255.255にブロードキャストし、ローカルのダイレクトブロードキャストアドレス（特定できる場合）とデバイスのIPアドレスにユニキャストします。</target>
         <note/>
       </trans-unit>
       <trans-unit id="The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted." xml:space="preserve">
@@ -9401,6 +9411,7 @@ This operation does not reset the display itself.</source>
       </trans-unit>
       <trans-unit id="The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device." xml:space="preserve">
         <source>The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device.</source>
+        <target state="translated">（WOLまたはWoWLANを使用して）スタンバイから復帰する場合に使用する、デバイスのネットワークアダプタの物理アドレス。指定しない場合は、デバイスのIPアドレスから判断を試みます。</target>
         <note/>
       </trans-unit>
       <trans-unit id="The display group is marked as exclusive while at least one other display group with higher priority is active." xml:space="preserve">
@@ -9614,6 +9625,7 @@ In case of a failure, disconnect and reconnect the display physically.</source>
       </trans-unit>
       <trans-unit id="Third pass WOL attempt delay" xml:space="preserve">
         <source>Third pass WOL attempt delay</source>
+        <target state="translated">第3パスWOL試行遅延時間</target>
         <note/>
       </trans-unit>
       <trans-unit id="Third-party external display" xml:space="preserve">
@@ -10776,6 +10788,7 @@ You can dismiss this notification - in this case the changes will be applied whe
       </trans-unit>
       <trans-unit id="WOL broadcast address" xml:space="preserve">
         <source>WOL broadcast address</source>
+        <target state="translated">WOLブロードキャストアドレス</target>
         <note/>
       </trans-unit>
       <trans-unit id="Wait time between backlight state change operations" xml:space="preserve">
@@ -11275,6 +11288,7 @@ A previous activation was automatically removed to make room for this new one.</
       </trans-unit>
       <trans-unit id="paired, waiting to connect" xml:space="preserve">
         <source>paired, waiting to connect</source>
+        <target state="translated">ペアリング済み、接続待機中</target>
         <note/>
       </trans-unit>
       <trans-unit id="pairing cancelled" xml:space="preserve">
