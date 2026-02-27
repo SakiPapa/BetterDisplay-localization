@@ -583,6 +583,10 @@ Thank you for your understanding and continued support.</source>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
+      <trans-unit id="0" xml:space="preserve">
+        <source>0</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="0.5x" xml:space="preserve">
         <source>0.5x</source>
         <target state="translated">0.5×</target>
@@ -651,6 +655,10 @@ Thank you for your understanding and continued support.</source>
       <trans-unit id="180°" xml:space="preserve">
         <source>180°</source>
         <target state="translated">180°</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="255.255.255.255" xml:space="preserve">
+        <source>255.255.255.255</source>
         <note/>
       </trans-unit>
       <trans-unit id="270°" xml:space="preserve">
@@ -931,6 +939,10 @@ Thank you for your understanding and continued support.</source>
       <trans-unit id="Adding a custom DDC control" xml:space="preserve">
         <source>Adding a custom DDC control</source>
         <target state="translated">新增自訂 DDC 控制項</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Additional LG webOS settings" xml:space="preserve">
+        <source>Additional LG webOS settings</source>
         <note/>
       </trans-unit>
       <trans-unit id="Additional Settings…" xml:space="preserve">
@@ -2155,6 +2167,10 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       <trans-unit id="Buy %@ Pro" xml:space="preserve">
         <source>Buy %@ Pro</source>
         <target state="translated">購買專業版 %@ </target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake." xml:space="preserve">
+        <source>By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake.</source>
         <note/>
       </trans-unit>
       <trans-unit id="By default the app orders display first, then virtual screens, alphabetically. By providing an ordering string, you can redefine the data which serves as the basis of the alphabetical order and mix the virtual screen among the displays as well." xml:space="preserve">
@@ -3527,6 +3543,10 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
         <target state="translated">裝置 IP 位址</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Device MAC address" xml:space="preserve">
+        <source>Device MAC address</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Device control settings" xml:space="preserve">
         <source>Device control settings</source>
         <target state="translated">裝置控制設定</target>
@@ -4000,6 +4020,10 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       <trans-unit id="DisplayLink Attached Display" xml:space="preserve">
         <source>DisplayLink Attached Display</source>
         <target state="translated">透過 DisplayLink 連接的顯示器</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="DisplayLink auto-discovery" xml:space="preserve">
+        <source>DisplayLink auto-discovery</source>
         <note/>
       </trans-unit>
       <trans-unit id="Displays" xml:space="preserve">
@@ -6844,6 +6868,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
         <target state="translated">定期從顯示器讀取和更新目前值</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Persistent network connection" xml:space="preserve">
+        <source>Persistent network connection</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs." xml:space="preserve">
         <source>Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs.</source>
         <target state="translated">Philips Android 電視使用安全連線並需要配對。關閉此選項可能可控制部分較舊的非 Android Philips 電視。</target>
@@ -6949,9 +6977,9 @@ Not all displays support DDC power operations. DDC power operations can cause (e
         <target state="translated">請參閱下面支援的 DDC 功能清單。根據需要使用自動設定和/或手動設定每個功能。</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Please enter the PIN number shown by the Philips TV and then complete the pairing." xml:space="preserve">
-        <source>Please enter the PIN number shown by the Philips TV and then complete the pairing.</source>
-        <target state="translated">請輸入 Philips 電視上顯示的 PIN 碼，然後完成配對。</target>
+      <trans-unit id="Please enter the PIN number shown by the TV and then complete the pairing." xml:space="preserve">
+        <source>Please enter the PIN number shown by the TV and then complete the pairing.</source>
+        <target state="translated">請輸入電視上顯示的 PIN 碼，然後完成配對。</target>
         <note/>
       </trans-unit>
       <trans-unit id="Please make sure you have your license details saved so you can activate again later!" xml:space="preserve">
@@ -9291,6 +9319,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
         <target state="translated">應用程式透過 macOS 提供的原生音量控制方法控制下方指定的關聯音訊裝置。</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable." xml:space="preserve">
+        <source>The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…" xml:space="preserve">
         <source>The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…</source>
         <target state="translated">應用程式選單圖示將反映目前主顯示器的圖示。如不喜歡預設圖示請啟用…</target>
@@ -9309,6 +9341,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       <trans-unit id="The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity." xml:space="preserve">
         <source>The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity.</source>
         <target state="translated">當裝置在一段時間未使用後音量被調整時，App 會開啟裝置並切換到所選輸入。</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays." xml:space="preserve">
+        <source>The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays.</source>
         <note/>
       </trans-unit>
       <trans-unit id="The app was launched using Rosetta. Some features won't work." xml:space="preserve">
@@ -9339,6 +9375,10 @@ This operation does not reset the display itself.</source>
 此操作不會重置顯示器本身。</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address." xml:space="preserve">
+        <source>The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted." xml:space="preserve">
         <source>The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted.</source>
         <target state="translated">外接顯示器連接時，內置顯示器會自動斷開。當您手動斷開內置顯示器或重新啟動程式時，此設定將重新啟用。</target>
@@ -9357,6 +9397,10 @@ This operation does not reset the display itself.</source>
       <trans-unit id="The device doesn’t support range-based volume control (i.e., setting a specific level on a scale between a minimum and maximum). It does support remote-style volume up/down and mute toggles, which works well for keyboard control. Volume control may not work optimally if an AV receiver is connected and HDMI‑CEC is handling volume between the TV and the receiver." xml:space="preserve">
         <source>The device doesn’t support range-based volume control (i.e., setting a specific level on a scale between a minimum and maximum). It does support remote-style volume up/down and mute toggles, which works well for keyboard control. Volume control may not work optimally if an AV receiver is connected and HDMI‑CEC is handling volume between the TV and the receiver.</source>
         <target state="translated">裝置不支援區間式音量控制（亦即在最小與最大之間設定一個特定音量級別）。但它支援類似遙控器的音量調高/調低與靜音切換，這在鍵盤控制時運作良好。若連接了 AV 接收器，且由 HDMI-CEC 在電視與接收器之間管理音量，音量控制可能無法達到最佳效果。</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device." xml:space="preserve">
+        <source>The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device.</source>
         <note/>
       </trans-unit>
       <trans-unit id="The display group is marked as exclusive while at least one other display group with higher priority is active." xml:space="preserve">
@@ -9566,6 +9610,10 @@ In case of a failure, disconnect and reconnect the display physically.</source>
       <trans-unit id="These three identifiers (serial number, vendor and model ID) serve as the basis for display identification in macOS. If any of these three identifiers are changed, the system will assign a new identity (UUID) to the virtual screen and treat it as newly connected display." xml:space="preserve">
         <source>These three identifiers (serial number, vendor and model ID) serve as the basis for display identification in macOS. If any of these three identifiers are changed, the system will assign a new identity (UUID) to the virtual screen and treat it as newly connected display.</source>
         <target state="translated">這三個識別碼 (序列號、供應商和型號ID) 是 macOS 中顯示器標識的基礎。如果這三個識別碼中的任何一個發生變化，系統將為虛擬螢幕分配一個新標識 (UUID)，並視為新連接的顯示器。</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Third pass WOL attempt delay" xml:space="preserve">
+        <source>Third pass WOL attempt delay</source>
         <note/>
       </trans-unit>
       <trans-unit id="Third-party external display" xml:space="preserve">
@@ -10726,6 +10774,10 @@ You can dismiss this notification - in this case the changes will be applied whe
         <target state="translated">音量控制</target>
         <note/>
       </trans-unit>
+      <trans-unit id="WOL broadcast address" xml:space="preserve">
+        <source>WOL broadcast address</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Wait time between backlight state change operations" xml:space="preserve">
         <source>Wait time between backlight state change operations</source>
         <target state="translated">背光狀態改變操作之間的等待時間</target>
@@ -11221,6 +11273,10 @@ A previous activation was automatically removed to make room for this new one.</
         <target state="translated">已配對，已連線</target>
         <note/>
       </trans-unit>
+      <trans-unit id="paired, waiting to connect" xml:space="preserve">
+        <source>paired, waiting to connect</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="pairing cancelled" xml:space="preserve">
         <source>pairing cancelled</source>
         <target state="translated">配對已取消</target>
@@ -11348,9 +11404,9 @@ Most displays do not allow EDID write for security reasons, some displays requir
         <target state="translated">⚠️ 全螢幕串流不可用，此設定需要螢幕錄影權限。您可在 "系統設定 &gt; 隱私與安全性 &gt; 螢幕錄影" 下授予權限！</target>
         <note/>
       </trans-unit>
-      <trans-unit id="⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
-        <source>⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
-        <target state="translated">⚠️ 如果您正在使用第三方應用程式 (如 MediaMate, DynamicLake) 來顯示調整浮動視窗 (OSD) 可能需要禁用鍵盤/內置調整浮動視窗 (OSD) 避免顯示重覆或混合風格的調整浮動視窗 (OSD)！</target>
+      <trans-unit id="⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
+        <source>⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
+        <target state="translated">⚠️ 如果您正在使用第三方應用程式來顯示調整浮動視窗 (OSD) 可能需要禁用鍵盤/內置調整浮動視窗 (OSD) 避免顯示重覆或混合風格的調整浮動視窗 (OSD)！</target>
         <note/>
       </trans-unit>
       <trans-unit id="⚠️ If you want to mirror/stream the virtual screen to a natively connected display only to get flexible HiDPI resolutions, it is recommended to use the flexible scaling feature instead if possible! If you want to use mirroring instead of streaming, this can be enabled in the app menu once the virtual screen was connected." xml:space="preserve">

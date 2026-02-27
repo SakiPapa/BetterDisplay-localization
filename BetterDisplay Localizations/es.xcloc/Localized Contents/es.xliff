@@ -583,6 +583,10 @@ Gracias por tu comprensión y continuo apoyo.</target>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
+      <trans-unit id="0" xml:space="preserve">
+        <source>0</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="0.5x" xml:space="preserve">
         <source>0.5x</source>
         <target state="translated">0,5x</target>
@@ -651,6 +655,10 @@ Gracias por tu comprensión y continuo apoyo.</target>
       <trans-unit id="180°" xml:space="preserve">
         <source>180°</source>
         <target state="translated">180°</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="255.255.255.255" xml:space="preserve">
+        <source>255.255.255.255</source>
         <note/>
       </trans-unit>
       <trans-unit id="270°" xml:space="preserve">
@@ -931,6 +939,10 @@ Gracias por tu comprensión y continuo apoyo.</target>
       <trans-unit id="Adding a custom DDC control" xml:space="preserve">
         <source>Adding a custom DDC control</source>
         <target state="translated">Agregar control DDC personalizado</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Additional LG webOS settings" xml:space="preserve">
+        <source>Additional LG webOS settings</source>
         <note/>
       </trans-unit>
       <trans-unit id="Additional Settings…" xml:space="preserve">
@@ -2155,6 +2167,10 @@ Especificar la longitud de lectura es opcional; deja el campo vacío para autode
       <trans-unit id="Buy %@ Pro" xml:space="preserve">
         <source>Buy %@ Pro</source>
         <target state="translated">Compra %@ Pro</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake." xml:space="preserve">
+        <source>By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake.</source>
         <note/>
       </trans-unit>
       <trans-unit id="By default the app orders display first, then virtual screens, alphabetically. By providing an ordering string, you can redefine the data which serves as the basis of the alphabetical order and mix the virtual screen among the displays as well." xml:space="preserve">
@@ -3527,6 +3543,10 @@ Especificar la longitud de lectura es opcional; deja el campo vacío para autode
         <target state="translated">Dirección IP de de dispositivo</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Device MAC address" xml:space="preserve">
+        <source>Device MAC address</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Device control settings" xml:space="preserve">
         <source>Device control settings</source>
         <target state="translated">Configuración de control de dispositivo</target>
@@ -4000,6 +4020,10 @@ Especificar la longitud de lectura es opcional; deja el campo vacío para autode
       <trans-unit id="DisplayLink Attached Display" xml:space="preserve">
         <source>DisplayLink Attached Display</source>
         <target state="translated">Pantalla conectada mediante DisplayLink</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="DisplayLink auto-discovery" xml:space="preserve">
+        <source>DisplayLink auto-discovery</source>
         <note/>
       </trans-unit>
       <trans-unit id="Displays" xml:space="preserve">
@@ -6844,6 +6868,10 @@ No todas las pantallas admiten operaciones de alimentación DDC. ¡Las operacion
         <target state="translated">Leer y actualizar periódicamente el valor actual de la pantalla</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Persistent network connection" xml:space="preserve">
+        <source>Persistent network connection</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs." xml:space="preserve">
         <source>Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs.</source>
         <target state="translated">Los televisores Philips con Android TV utilizan una conexión segura y requieren emparejamiento. Desactivar esta opción podría permitir el control de algunos televisores Philips antiguos que no son Android.</target>
@@ -6949,9 +6977,9 @@ No todas las pantallas admiten operaciones de alimentación DDC. ¡Las operacion
         <target state="translated">Por favor, consulta la lista de características DDC compatibles a continuación. Utiliza la autoconfiguración y/o configura cada función manualmente según sea necesario.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="Please enter the PIN number shown by the Philips TV and then complete the pairing." xml:space="preserve">
-        <source>Please enter the PIN number shown by the Philips TV and then complete the pairing.</source>
-        <target state="translated">Introduzca el número PIN que muestra el televisor Philips y, a continuación, complete el emparejamiento.</target>
+      <trans-unit id="Please enter the PIN number shown by the TV and then complete the pairing." xml:space="preserve">
+        <source>Please enter the PIN number shown by the TV and then complete the pairing.</source>
+        <target state="translated">Introduzca el número PIN que muestra el televisor y, a continuación, complete el emparejamiento.</target>
         <note/>
       </trans-unit>
       <trans-unit id="Please make sure you have your license details saved so you can activate again later!" xml:space="preserve">
@@ -9291,6 +9319,10 @@ Eliminar todas las activaciones te permitirá empezar desde cero.</target>
         <target state="translated">La aplicación controla el dispositivo de audio asociado especificado a continuación mediante los métodos de control de audio nativos proporcionados por macOS.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable." xml:space="preserve">
+        <source>The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…" xml:space="preserve">
         <source>The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…</source>
         <target state="translated">El ícono del menú de la aplicación reflejará el ícono de la pantalla principal actual. Habilítelo si no le gusta el icono predeterminado…</target>
@@ -9309,6 +9341,10 @@ Eliminar todas las activaciones te permitirá empezar desde cero.</target>
       <trans-unit id="The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity." xml:space="preserve">
         <source>The app powers the device on and switches to the selected input when the device volume is changed after some period of inactivity.</source>
         <target state="translated">La aplicación enciende el dispositivo y cambia a la entrada seleccionada cuando se modifica el volumen del dispositivo después de un período de inactividad.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays." xml:space="preserve">
+        <source>The app requests information about DisplayLink displays during configuration. Requires up-to-date DisplayLink drivers. Disable this feature if you experience issues with DisplayLink attached displays.</source>
         <note/>
       </trans-unit>
       <trans-unit id="The app was launched using Rosetta. Some features won't work." xml:space="preserve">
@@ -9339,6 +9375,10 @@ This operation does not reset the display itself.</source>
 Esta operación no restablece la pantalla en sí.</target>
         <note/>
       </trans-unit>
+      <trans-unit id="The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address." xml:space="preserve">
+        <source>The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address.</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted." xml:space="preserve">
         <source>The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted.</source>
         <target state="translated">La pantalla integrada está configurada para desconectarse cuando se conecta una pantalla externa. Esta configuración se volverá a habilitar cuando la pantalla integrada se desconecte manualmente nuevamente o cuando se reinicie la aplicación.</target>
@@ -9357,6 +9397,10 @@ Esta operación no restablece la pantalla en sí.</target>
       <trans-unit id="The device doesn’t support range-based volume control (i.e., setting a specific level on a scale between a minimum and maximum). It does support remote-style volume up/down and mute toggles, which works well for keyboard control. Volume control may not work optimally if an AV receiver is connected and HDMI‑CEC is handling volume between the TV and the receiver." xml:space="preserve">
         <source>The device doesn’t support range-based volume control (i.e., setting a specific level on a scale between a minimum and maximum). It does support remote-style volume up/down and mute toggles, which works well for keyboard control. Volume control may not work optimally if an AV receiver is connected and HDMI‑CEC is handling volume between the TV and the receiver.</source>
         <target state="translated">El dispositivo no admite control de volumen por rangos (es decir, establecer un nivel específico en una escala entre un mínimo y un máximo). Sí admite botones de subir/bajar volumen y de silencio, similares a los de un mando a distancia, lo cual resulta útil para el control mediante teclado. El control de volumen podría no funcionar correctamente si hay un receptor AV conectado y HDMI-CEC gestiona el volumen entre el televisor y el receptor.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device." xml:space="preserve">
+        <source>The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device.</source>
         <note/>
       </trans-unit>
       <trans-unit id="The display group is marked as exclusive while at least one other display group with higher priority is active." xml:space="preserve">
@@ -9566,6 +9610,10 @@ En caso de error, desconecte y vuelva a conectar la pantalla físicamente.</targ
       <trans-unit id="These three identifiers (serial number, vendor and model ID) serve as the basis for display identification in macOS. If any of these three identifiers are changed, the system will assign a new identity (UUID) to the virtual screen and treat it as newly connected display." xml:space="preserve">
         <source>These three identifiers (serial number, vendor and model ID) serve as the basis for display identification in macOS. If any of these three identifiers are changed, the system will assign a new identity (UUID) to the virtual screen and treat it as newly connected display.</source>
         <target state="translated">Estos tres identificadores (número de serie, proveedor e ID de modelo) sirven como base para la identificación de la pantalla en macOS. Si se cambia cualquiera de estos tres identificadores, el sistema asignará una nueva identidad (UUID) a la pantalla virtual y la reconocerá como una pantalla recién conectada.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Third pass WOL attempt delay" xml:space="preserve">
+        <source>Third pass WOL attempt delay</source>
         <note/>
       </trans-unit>
       <trans-unit id="Third-party external display" xml:space="preserve">
@@ -10726,6 +10774,10 @@ Puede descartar esta notificación; en este caso, los cambios se aplicarán la p
         <target state="translated">Control de volumen</target>
         <note/>
       </trans-unit>
+      <trans-unit id="WOL broadcast address" xml:space="preserve">
+        <source>WOL broadcast address</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Wait time between backlight state change operations" xml:space="preserve">
         <source>Wait time between backlight state change operations</source>
         <target state="translated">Lapso de tiempo retroiluminación cambia de estado</target>
@@ -11220,6 +11272,10 @@ Se eliminó automáticamente una activación anterior para hacer espacio para es
         <target state="translated">emparejado, conectado</target>
         <note/>
       </trans-unit>
+      <trans-unit id="paired, waiting to connect" xml:space="preserve">
+        <source>paired, waiting to connect</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="pairing cancelled" xml:space="preserve">
         <source>pairing cancelled</source>
         <target state="translated">emparejamiento cancelado</target>
@@ -11349,9 +11405,9 @@ La mayoría de las pantallas no permiten la escritura de EDID por razones de seg
         <target state="translated">⚠️ La transmisión en pantalla completa no está disponible, ya que requiere permisos de grabación de pantalla. Puedes otorgar esto en Configuración del sistema &gt; Privacidad y seguridad &gt; Grabación de pantalla.</target>
         <note/>
       </trans-unit>
-      <trans-unit id="⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
-        <source>⚠️ If a third party app (like MediaMate, DynamicLake) is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
-        <target state="translated">⚠️ Si se está utilizando una aplicación de terceros (como MediaMate, DynamicLake) para mostrar el OSD, es posible que desees desactivar el OSD integrado en Configuración de teclado/OSD para evitar tener OSD duplicados o presentaciones de OSD de estilos mezclados.</target>
+      <trans-unit id="⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!" xml:space="preserve">
+        <source>⚠️ If a third party app is being used to show the OSD, you might want to disable the built-in OSD under Keyboard/OSD to avoid having duplicated or mixed-style OSDs presented!</source>
+        <target state="translated">⚠️ Si se está utilizando una aplicación de terceros para mostrar el OSD, es posible que desees desactivar el OSD integrado en Configuración de teclado/OSD para evitar tener OSD duplicados o presentaciones de OSD de estilos mezclados.</target>
         <note/>
       </trans-unit>
       <trans-unit id="⚠️ If you want to mirror/stream the virtual screen to a natively connected display only to get flexible HiDPI resolutions, it is recommended to use the flexible scaling feature instead if possible! If you want to use mirroring instead of streaming, this can be enabled in the app menu once the virtual screen was connected." xml:space="preserve">
