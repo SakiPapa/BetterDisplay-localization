@@ -8159,6 +8159,10 @@ Tous les écrans ne prennent pas en charge les opérations d'alimentation DDC. L
         <target state="translated">Sélectionner un contrôle personnalisé…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Choisir l'entrée</target>

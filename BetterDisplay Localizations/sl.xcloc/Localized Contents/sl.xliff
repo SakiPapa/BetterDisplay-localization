@@ -8181,6 +8181,10 @@ Vsi zasloni ne podpirajo napajalnih operacij DDC. Napajanje DDC lahko povzroči 
         <target state="translated">Izberite nadzor po meri...</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Izberi vhod</target>

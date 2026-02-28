@@ -8157,6 +8157,10 @@ Niet alle schermen ondersteunen DDC-stroomhandelingen. DDC-stroomhandelingen kun
         <target state="translated">Selecteer eigen bediening...</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Selecteer invoer</target>

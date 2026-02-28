@@ -8163,6 +8163,10 @@ Eliminar todas las activaciones te permitirá empezar desde cero.</target>
         <target state="translated">Seleccionar control personalizado…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Seleccionar entrada</target>

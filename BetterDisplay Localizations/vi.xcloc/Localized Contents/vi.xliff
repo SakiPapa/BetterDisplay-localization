@@ -8163,6 +8163,10 @@ Việc xóa tất cả các kích hoạt sẽ giúp bạn bắt đầu lại t�
         <target state="translated">Chọn Điều Khiển Tùy Chỉnh…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Chọn Đầu Vào</target>

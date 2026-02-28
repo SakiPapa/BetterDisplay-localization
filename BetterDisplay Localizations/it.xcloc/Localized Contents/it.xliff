@@ -8161,6 +8161,10 @@ Rimuovere tutte le attivazioni ripristinerà la situazione iniziale.</target>
         <target state="translated">Seleziona controllo personalizzato…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Seleziona ingresso</target>

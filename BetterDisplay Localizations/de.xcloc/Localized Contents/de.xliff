@@ -8169,6 +8169,10 @@ Das Entfernen aller Aktivierungen setzt alles auf Null.</target>
         <target state="translated">Benutzerdefinierte Steuerung auswählen...</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Eingang auswählen</target>

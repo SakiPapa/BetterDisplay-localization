@@ -8167,6 +8167,10 @@ Az összes aktiválás eltávolítása tiszta lapot biztosít.</target>
         <target state="translated">Egyéni vezérlő kiválasztása…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Bemenet kiválasztása</target>

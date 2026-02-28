@@ -8162,6 +8162,10 @@ Ikke alle skjermer støtter DDC-strømoperasjoner. Slike operasjoner kan forårs
         <target state="translated">Velg egendefinert kontroll…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Velg inndata</target>

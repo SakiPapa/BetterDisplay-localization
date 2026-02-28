@@ -8163,6 +8163,10 @@ Om du tar bort alla aktiveringar får du ett oskrivet blad.</target>
         <target state="translated">Välj anpassad kontroll…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Välj ingång</target>

@@ -8163,6 +8163,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
         <target state="translated">選擇自訂控制項…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">選擇輸入來源</target>
