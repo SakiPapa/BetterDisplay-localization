@@ -587,7 +587,7 @@ Köszönjük megértését és folyamatos támogatását.</target>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
-      <trans-unit id="0" xml:space="preserve">
+      <trans-unit id="0" translate="no" xml:space="preserve">
         <source>0</source>
         <note/>
       </trans-unit>
@@ -661,7 +661,7 @@ Köszönjük megértését és folyamatos támogatását.</target>
         <target state="translated">180°</target>
         <note/>
       </trans-unit>
-      <trans-unit id="255.255.255.255" xml:space="preserve">
+      <trans-unit id="255.255.255.255" translate="no" xml:space="preserve">
         <source>255.255.255.255</source>
         <note/>
       </trans-unit>
@@ -2345,6 +2345,10 @@ A méret megadása opcionális - hagyja üresen a mezőt automatikus meghatároz
       <trans-unit id="Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." xml:space="preserve">
         <source>Change the display connection color mode (bit depth, encoding, chroma subsampling, range).</source>
         <target state="translated">A kijelző csatlakozási színmódjának módosítása (bitmélység, kódolás, chroma subsampling, tartomány).</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change the display input source (for displays with supported controllers)." xml:space="preserve">
+        <source>Change the display input source (for displays with supported controllers).</source>
         <note/>
       </trans-unit>
       <trans-unit id="Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." xml:space="preserve">
@@ -8163,6 +8167,10 @@ Az összes aktiválás eltávolítása tiszta lapot biztosít.</target>
         <target state="translated">Egyéni vezérlő kiválasztása…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Bemenet kiválasztása</target>
@@ -8481,6 +8489,10 @@ Az összes aktiválás eltávolítása tiszta lapot biztosít.</target>
       <trans-unit id="Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." xml:space="preserve">
         <source>Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}.</source>
         <target state="translated">A(z) ${displayEntity} kijelző módjának beállítása ${resolutionEntity} felbontásra, ${scaleFactorEntity} méretezéssel, ${refreshRateEntity} frissítési gyakorisággal és ${colorDepthEntity} színmélységgel.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Set the input source ${displayEntity} to ${inputSourceEntity}." xml:space="preserve">
+        <source>Set the input source ${displayEntity} to ${inputSourceEntity}.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Set the rotation of ${displayEntity} to ${degrees}." xml:space="preserve">

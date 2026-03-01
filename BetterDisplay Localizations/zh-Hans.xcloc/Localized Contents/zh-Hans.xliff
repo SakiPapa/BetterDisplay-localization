@@ -583,7 +583,7 @@ Thank you for your understanding and continued support.</source>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
-      <trans-unit id="0" xml:space="preserve">
+      <trans-unit id="0" translate="no" xml:space="preserve">
         <source>0</source>
         <note/>
       </trans-unit>
@@ -657,7 +657,7 @@ Thank you for your understanding and continued support.</source>
         <target state="translated">180°</target>
         <note/>
       </trans-unit>
-      <trans-unit id="255.255.255.255" xml:space="preserve">
+      <trans-unit id="255.255.255.255" translate="no" xml:space="preserve">
         <source>255.255.255.255</source>
         <note/>
       </trans-unit>
@@ -2171,6 +2171,7 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       </trans-unit>
       <trans-unit id="By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake." xml:space="preserve">
         <source>By default the app issues a WOL command on system wake and then after the standard wake delay (second pass). If third pass delay is configured, the app will send an additional WOL signal afterwards. Useful for network devices which are slow to initialize after wake.</source>
+        <target state="translated">默认情况下，程序会在系统唤醒时发送一次 WOL 命令，并在标准延迟后发送第二次。如果配置了第三次 WOL 尝试延迟，程序之后还会额外再发送一次信号。这对于那些唤醒后初始化较慢的网络设备非常有用。</target>
         <note/>
       </trans-unit>
       <trans-unit id="By default the app orders display first, then virtual screens, alphabetically. By providing an ordering string, you can redefine the data which serves as the basis of the alphabetical order and mix the virtual screen among the displays as well." xml:space="preserve">
@@ -2341,6 +2342,10 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       <trans-unit id="Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." xml:space="preserve">
         <source>Change the display connection color mode (bit depth, encoding, chroma subsampling, range).</source>
         <target state="translated">变更显示连接色彩模式 (位元深度、编码、色度子取样、范围)。</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change the display input source (for displays with supported controllers)." xml:space="preserve">
+        <source>Change the display input source (for displays with supported controllers).</source>
         <note/>
       </trans-unit>
       <trans-unit id="Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." xml:space="preserve">
@@ -3545,6 +3550,7 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       </trans-unit>
       <trans-unit id="Device MAC address" xml:space="preserve">
         <source>Device MAC address</source>
+        <target state="translated">设备 MAC 地址</target>
         <note/>
       </trans-unit>
       <trans-unit id="Device control settings" xml:space="preserve">
@@ -6870,6 +6876,7 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       </trans-unit>
       <trans-unit id="Persistent network connection" xml:space="preserve">
         <source>Persistent network connection</source>
+        <target state="translated">持久网络连接</target>
         <note/>
       </trans-unit>
       <trans-unit id="Philips Android TVs use secure connection and require pairing. Turning this off may allow control of some older non-Android Philips TVs." xml:space="preserve">
@@ -8159,6 +8166,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
         <target state="translated">选择自定义控制项…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">选择输入源</target>
@@ -8477,6 +8488,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       <trans-unit id="Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." xml:space="preserve">
         <source>Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}.</source>
         <target state="translated">将 ${displayEntity} 的显示模式设定为解析度${resolutionEntity}, 使用 ${scaleFactorEntity} 缩放, 更新率 ${refreshRateEntity}, 色彩深度 ${colorDepthEntity}。</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Set the input source ${displayEntity} to ${inputSourceEntity}." xml:space="preserve">
+        <source>Set the input source ${displayEntity} to ${inputSourceEntity}.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Set the rotation of ${displayEntity} to ${degrees}." xml:space="preserve">
@@ -9321,6 +9336,7 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       </trans-unit>
       <trans-unit id="The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable." xml:space="preserve">
         <source>The app establishes and maintains a persistent connection to the device. Turning this off may slow down device interaction but helps if the connection is unreliable.</source>
+        <target state="translated">程序将保持与设备的持久连接。关闭此选项可能会降低响应速度，但在连接不稳定时有助于提高成功率。</target>
         <note/>
       </trans-unit>
       <trans-unit id="The app menu icon will reflect the icon of the current main display. Enable if you don't like the default icon…" xml:space="preserve">
@@ -9377,6 +9393,7 @@ This operation does not reset the display itself.</source>
       </trans-unit>
       <trans-unit id="The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address." xml:space="preserve">
         <source>The broadcast IP address for the WOL/WoWLAN magic packet. If left empty, the app broadcasts to 255.255.255.255, the local directed broadcast address (if it can be determined) and unicast to the device IP address.</source>
+        <target state="translated">WOL/WoWLAN 魔术数据包的广播 IP 地址。若未指定，应用程序将向 255.255.255.255 和本地定向广播地址（若能确定）进行广播，并向设备 IP 地址发送单播数据包。</target>
         <note/>
       </trans-unit>
       <trans-unit id="The built-in display is configured to be disconnected when an external display is connected. This setting will be re-enabled when the built-in display is manually disconnected again or the app is restarted." xml:space="preserve">
@@ -9401,6 +9418,7 @@ This operation does not reset the display itself.</source>
       </trans-unit>
       <trans-unit id="The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device." xml:space="preserve">
         <source>The device network adapter physical address used for waking it up from standby (using WOL or WoWLAN). If not specified, the app tries to determine it from the IP address of the device.</source>
+        <target state="translated">设备网卡的 MAC 地址，用于通过 WOL 或 WoWLAN 远程唤醒待机设备。若未指定，程序会自动根据设备 IP 地址获取。</target>
         <note/>
       </trans-unit>
       <trans-unit id="The display group is marked as exclusive while at least one other display group with higher priority is active." xml:space="preserve">
@@ -9614,6 +9632,7 @@ In case of a failure, disconnect and reconnect the display physically.</source>
       </trans-unit>
       <trans-unit id="Third pass WOL attempt delay" xml:space="preserve">
         <source>Third pass WOL attempt delay</source>
+        <target state="translated">第三次 WOL 尝试延迟</target>
         <note/>
       </trans-unit>
       <trans-unit id="Third-party external display" xml:space="preserve">
@@ -10776,6 +10795,7 @@ You can dismiss this notification - in this case the changes will be applied whe
       </trans-unit>
       <trans-unit id="WOL broadcast address" xml:space="preserve">
         <source>WOL broadcast address</source>
+        <target state="translated">WOL 广播地址 </target>
         <note/>
       </trans-unit>
       <trans-unit id="Wait time between backlight state change operations" xml:space="preserve">

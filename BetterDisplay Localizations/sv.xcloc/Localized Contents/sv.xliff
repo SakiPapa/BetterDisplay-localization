@@ -583,7 +583,7 @@ Tack för din förståelse och ditt fortsatta stöd.</target>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
-      <trans-unit id="0" xml:space="preserve">
+      <trans-unit id="0" translate="no" xml:space="preserve">
         <source>0</source>
         <note/>
       </trans-unit>
@@ -657,7 +657,7 @@ Tack för din förståelse och ditt fortsatta stöd.</target>
         <target state="translated">180°</target>
         <note/>
       </trans-unit>
-      <trans-unit id="255.255.255.255" xml:space="preserve">
+      <trans-unit id="255.255.255.255" translate="no" xml:space="preserve">
         <source>255.255.255.255</source>
         <note/>
       </trans-unit>
@@ -2341,6 +2341,10 @@ Att ange läslängd är valfritt - lämna fältet tomt för automatisk detekteri
       <trans-unit id="Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." xml:space="preserve">
         <source>Change the display connection color mode (bit depth, encoding, chroma subsampling, range).</source>
         <target state="translated">Ändra färgläget för skärmanslutningen (bitdjup, kodning, chroma undersampling, intervall).</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change the display input source (for displays with supported controllers)." xml:space="preserve">
+        <source>Change the display input source (for displays with supported controllers).</source>
         <note/>
       </trans-unit>
       <trans-unit id="Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." xml:space="preserve">
@@ -8159,6 +8163,10 @@ Om du tar bort alla aktiveringar får du ett oskrivet blad.</target>
         <target state="translated">Välj anpassad kontroll…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Välj ingång</target>
@@ -8477,6 +8485,10 @@ Om du tar bort alla aktiveringar får du ett oskrivet blad.</target>
       <trans-unit id="Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." xml:space="preserve">
         <source>Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}.</source>
         <target state="translated">Ställ in skärmläget för ${displayEntity} till upplösning ${resolutionEntity} med ${scaleFactorEntity}-skalning vid uppdateringsfrekvens ${refreshRateEntity} med färgdjup ${colorDepthEntity}.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Set the input source ${displayEntity} to ${inputSourceEntity}." xml:space="preserve">
+        <source>Set the input source ${displayEntity} to ${inputSourceEntity}.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Set the rotation of ${displayEntity} to ${degrees}." xml:space="preserve">

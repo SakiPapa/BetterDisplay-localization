@@ -583,7 +583,7 @@ Vă mulțumim pentru înțelegere și pentru sprijinul continuu.</target>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
-      <trans-unit id="0" xml:space="preserve">
+      <trans-unit id="0" translate="no" xml:space="preserve">
         <source>0</source>
         <note/>
       </trans-unit>
@@ -657,7 +657,7 @@ Vă mulțumim pentru înțelegere și pentru sprijinul continuu.</target>
         <target state="translated">180°</target>
         <note/>
       </trans-unit>
-      <trans-unit id="255.255.255.255" xml:space="preserve">
+      <trans-unit id="255.255.255.255" translate="no" xml:space="preserve">
         <source>255.255.255.255</source>
         <note/>
       </trans-unit>
@@ -2340,6 +2340,10 @@ Specificarea lungimii de citire este opțională - lăsați câmpul gol pentru d
       <trans-unit id="Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." xml:space="preserve">
         <source>Change the display connection color mode (bit depth, encoding, chroma subsampling, range).</source>
         <target state="translated">Modificați modul de culoare al conexiunii de afișare (adâncime de biți, codificare, subeșantionare cromatică, gamă).</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change the display input source (for displays with supported controllers)." xml:space="preserve">
+        <source>Change the display input source (for displays with supported controllers).</source>
         <note/>
       </trans-unit>
       <trans-unit id="Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." xml:space="preserve">
@@ -8156,6 +8160,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
         <target state="translated">Selectează control personalizat…</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">Alege input-ul</target>
@@ -8474,6 +8482,10 @@ Nu toate ecranele acceptă operațiunile de alimentare DDC. Operațiunile de ali
       <trans-unit id="Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." xml:space="preserve">
         <source>Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}.</source>
         <target state="translated">Setați modul de afișare al ${displayEntity} la rezoluția ${resolutionEntity} utilizând ${scaleFactorEntity} scalare la rata de reîmprospătare ${refreshRateEntity} cu adâncimea de culoare ${colorDepthEntity}.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Set the input source ${displayEntity} to ${inputSourceEntity}." xml:space="preserve">
+        <source>Set the input source ${displayEntity} to ${inputSourceEntity}.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Set the rotation of ${displayEntity} to ${degrees}." xml:space="preserve">

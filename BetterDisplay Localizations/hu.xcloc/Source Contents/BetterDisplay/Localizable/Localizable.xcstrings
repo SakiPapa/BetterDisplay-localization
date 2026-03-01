@@ -598,7 +598,7 @@
 
     },
     "0" : {
-
+      "shouldTranslate" : false
     },
     "0.5x" : {
 
@@ -643,7 +643,7 @@
 
     },
     "255.255.255.255" : {
-
+      "shouldTranslate" : false
     },
     "270°" : {
 
@@ -1657,6 +1657,9 @@
     "Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." : {
 
     },
+    "Change the display input source (for displays with supported controllers)." : {
+
+    },
     "Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." : {
 
     },
@@ -2213,7 +2216,7 @@
 
     },
     "DDC Display Input Source" : {
-
+      "extractionState" : "stale"
     },
     "DDC features & capabilities" : {
 
@@ -2303,7 +2306,7 @@
 
     },
     "Default Display" : {
-
+      "extractionState" : "stale"
     },
     "Default display identification method" : {
 
@@ -5266,6 +5269,9 @@
     "Select display" : {
 
     },
+    "Select Display" : {
+
+    },
     "Select Input" : {
 
     },
@@ -5448,6 +5454,9 @@
 
     },
     "Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." : {
+
+    },
+    "Set the input source ${displayEntity} to ${inputSourceEntity}." : {
 
     },
     "Set the rotation of ${displayEntity} to ${degrees}." : {

@@ -583,7 +583,7 @@ Thank you for your understanding and continued support.</source>
         <target state="translated">-</target>
         <note/>
       </trans-unit>
-      <trans-unit id="0" xml:space="preserve">
+      <trans-unit id="0" translate="no" xml:space="preserve">
         <source>0</source>
         <note/>
       </trans-unit>
@@ -657,7 +657,7 @@ Thank you for your understanding and continued support.</source>
         <target state="translated">180°</target>
         <note/>
       </trans-unit>
-      <trans-unit id="255.255.255.255" xml:space="preserve">
+      <trans-unit id="255.255.255.255" translate="no" xml:space="preserve">
         <source>255.255.255.255</source>
         <note/>
       </trans-unit>
@@ -2342,6 +2342,10 @@ Specifying read length is optional - leave the field empty for autodetect.</sour
       <trans-unit id="Change the display connection color mode (bit depth, encoding, chroma subsampling, range)." xml:space="preserve">
         <source>Change the display connection color mode (bit depth, encoding, chroma subsampling, range).</source>
         <target state="translated">디스플레이 연결 색상 모드(비트 심도, 인코딩, 크로마 서브샘플링, 범위)를 변경합니다.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Change the display input source (for displays with supported controllers)." xml:space="preserve">
+        <source>Change the display input source (for displays with supported controllers).</source>
         <note/>
       </trans-unit>
       <trans-unit id="Change the display mode (resolution, scaling, exposed refresh rate, color depth) of a screen." xml:space="preserve">
@@ -8159,6 +8163,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
         <target state="translated">사용자 정의 컨트롤 선택...</target>
         <note/>
       </trans-unit>
+      <trans-unit id="Select Display" xml:space="preserve">
+        <source>Select Display</source>
+        <note/>
+      </trans-unit>
       <trans-unit id="Select Input" xml:space="preserve">
         <source>Select Input</source>
         <target state="translated">입력 선택</target>
@@ -8477,6 +8485,10 @@ Not all displays support DDC power operations. DDC power operations can cause (e
       <trans-unit id="Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}." xml:space="preserve">
         <source>Set the display mode of ${displayEntity} to resolution ${resolutionEntity} using ${scaleFactorEntity} scaling at refresh rate ${refreshRateEntity} with color depth ${colorDepthEntity}.</source>
         <target state="translated">${displayEntity}의 디스플레이 모드를 해상도는 ${resolutionEntity}, 배율은 ${scaleFactorEntity}, 주사율은 ${refreshRateEntity}, 색상 깊이는 ${colorDepthEntity}(으)로 설정합니다.</target>
+        <note/>
+      </trans-unit>
+      <trans-unit id="Set the input source ${displayEntity} to ${inputSourceEntity}." xml:space="preserve">
+        <source>Set the input source ${displayEntity} to ${inputSourceEntity}.</source>
         <note/>
       </trans-unit>
       <trans-unit id="Set the rotation of ${displayEntity} to ${degrees}." xml:space="preserve">
